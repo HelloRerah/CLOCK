@@ -1,0 +1,70 @@
+body{
+    background-color: rgba(0, 0, 0, 0.928);
+}
+#heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 4.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #f70063;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#display{
+    color: whitesmoke;
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#controls{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 350px; /* Optional: controls how wide the row can be */
+    padding-top: 5%;
+}
+#startbutton{
+    padding: 8px 16px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(184, 23, 58);
+  color: black;
+  font-weight: bolder;
+  cursor: pointer;
+}
+#startbutton:hover{
+   background: linear-gradient(45deg, #ab4141, #f06595);
+   color: white;
+}
+#stopbutton{
+    padding: 8px 16px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(184, 23, 58);
+  color: black;
+  font-weight: bolder;
+  cursor: pointer;
+}
+#stopbutton:hover{
+   background: linear-gradient(45deg, #ab4141, #f06595);
+   color: white;
+}
+#resetbutton{
+    padding: 8px 16px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(184, 23, 58);
+  color: black;
+  font-weight: bolder;
+  cursor: pointer;
+}
+#resetbutton:hover{
+   background: linear-gradient(45deg, #ab4141, #f06595);
+   color: white;
+}
